@@ -1,0 +1,135 @@
+
+.App {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.comment-section {
+    position: relative;
+    background-color: #ebecf1;
+    padding: 10px;
+    width: 500px;
+    box-shadow: RGB(0 0 0 / 30%) 0px 2px 10px 0px;
+}
+
+.comment-section input {
+    width: 95%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comment-section p {
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.published-comment {
+    position: relative;
+    padding: 10px;
+    width: 500px;
+    background-color: #ebecf1;
+    box-shadow: RGB(0 0 0 / 30%) 0px 2px 10px 0px;
+}
+.published-comment p {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+}
+
+.post-button{
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #2962FF;
+    color: white;
+    box-shadow: RGB(0 0 0 / 30%) 0px 2px 10px 0px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.published-comment .date {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.published-comment .name {
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.published-comment .reply-edit-container span{
+    font-size: 14px;
+    color: blue;
+    cursor: pointer;
+}
+
+.published-comment .reply-edit-container .reply-link{
+    margin-right: 20px;
+}
+
+.comment-container-spacing {
+    width: 500px;
+    margin: 10px 0px 20px 0px;
+}
+
+.reply-section {
+    margin-top: 10px;
+}
+
+.reply-comment {
+    margin-left: 60px;
+}
+
+.sort-container {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 520px;
+}
+
+.sort-container .date_time_sort {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.delete-icon {
+    color: gray;
+    position: absolute;
+    right: -6px;
+    top: 40%;
+    cursor: pointer;
+}
+
+.edit-container {
+    position: relative;
+    background-color: #ebecf1;
+    box-shadow: RGB(0 0 0 / 30%) 0px 2px 10px 0px;
+    margin-top: 20px;
+}
+
+.edit-container button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.edit-container .edit {
+    width: 75%;
+}
+
+.input-text {
+    display: block;
+    margin: 0;
+    padding: 0.8rem 1rem;
+    color: inherit;
+    width: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.1rem;
+    border: none;
+    border-radius: 0.4rem;
+  }
