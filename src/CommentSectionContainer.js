@@ -38,7 +38,7 @@ function CommentSectionContainer(props) {
                 onClickPost={updatedDataOnPostClick}
                 type={"Comment"}
             />
-            <Sort onSortData={handleSortingOfData} />
+            {data.length > 0 ? <Sort onSortData={handleSortingOfData} /> : null}
             <PublishedComments commentsData={data} setData={setData} />
         </div>
     );

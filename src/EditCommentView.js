@@ -15,7 +15,14 @@ function EditCommentView({ data, id, comment, setEditComment, setData}) {
 
     return (
         <div className="edit-container">
-            <input value={inputValue} className = "input-text edit" onChange = {onChangeInputHandler}/>
+             <textarea
+                name="Text1"
+                cols="40"
+                rows="5"
+                className="input-text edit"
+                value={inputValue}
+                onChange = {onChangeInputHandler}
+            ></textarea>
             <button className='post-button' onClick={onCompleteEditHandler}>Post</button>
         </div>
     );

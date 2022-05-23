@@ -15,18 +15,22 @@ function CommentSectionView(props) {
     return (
         <div className="comment-section">
             <p>{props.type}</p>
+
             <input
                 placeholder="Name"
                 className="input-text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />
-            <input
+            <textarea
+                name="Text1"
+                cols="40"
+                rows="5"
                 placeholder="Comment"
-                className="input-text"
+                className="input-text comment-input"
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-            />
+            ></textarea>
             <button className="post-button" onClick={onClickPostButtonHandler}>
                 Post
             </button>
